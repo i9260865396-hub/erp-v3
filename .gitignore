@@ -33,3 +33,6 @@ storage/
 uploads/
 artifacts/
 tmp/
+
+!.env.example
+

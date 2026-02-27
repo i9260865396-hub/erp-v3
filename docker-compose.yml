@@ -3,7 +3,7 @@
     image: postgres:16
     environment:
       POSTGRES_USER: erp
-      POSTGRES_PASSWORD: erp
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: erp
     ports:
       - "5432:5432"
@@ -40,3 +40,4 @@
 volumes:
   pgdata:
   web_node_modules:
+
