@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: rgb(248 250 252);
+  color: rgb(15 23 42);
+}
+
+.btn-icon {
+  @apply inline-flex h-9 w-9 items-center justify-center rounded-md border border-slate-200 bg-white hover:bg-slate-50;
+}
